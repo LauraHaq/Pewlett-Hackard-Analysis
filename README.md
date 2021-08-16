@@ -15,7 +15,7 @@ Data types, formats and connecting keys were considered in creating new data fil
   - ![retiringment_titles.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv)
   - ![dept_emp.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/dept_emp.csv)
   - ![unique_titles.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv)
-  - ![retiring_titles](https://user-images.githubusercontent.com/86267773/129509269-b44f9643-73bd-4cbf-bcc0-54a08b5bbc39.png)
+  - ![retiring_titles](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv)
   
 - Tools
   - ![QuickDBD app](https://app.quickdatabasediagrams.com/)
@@ -31,18 +31,14 @@ Data types, formats and connecting keys were considered in creating new data fil
 
 ![retiring_titles](https://user-images.githubusercontent.com/86267773/129509269-b44f9643-73bd-4cbf-bcc0-54a08b5bbc39.png)
 
-- Third is to find Senoir employees that can be considered to become mentors filtering data with birthdays on file of January 1, 1965 to December 31, 1965.
+- Also, to find which departments those positions are located.
+
+![dept_affected](https://user-images.githubusercontent.com/86267773/129521156-323525b5-2616-496e-8679-9fbb5f76b9ce.png)
+
+
+- Finally, is to find Senoir employees that can be considered to become mentors filtering data with birthdays on file of January 1, 1965 to December 31, 1965.
 
     - ![mentor_eligibilty.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv) produced a list of 1,549 employees to become mentors.
 
-
-
-
-Summary:
-Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt),
-
-With addtional time it would be effective to find which departments these employees are in to cross train?
+## Summary
+This analysis was able to show Pelwett Hackard how to prepare for a large number of employees retiring in the near future. In fact 27.3% of their workforce is up for retirement and nearly two-thirds are in senior positons. A senoir mentor program very much is needed to prepare their juniors to take their positions. A list of those mentors are provided and gives a count of 1,549 possible mentors. With almost 60,000 in senior positions the 14,222 Engineers and 12,243 regular staff will be able to take up less than half of the positions. Outside hiring will need to be considered. Also, outside education will also need to be considered as 1,549 is not enough to make a large impact on a large workforce. Addition information that I have already added is to look at which departments those soon to be retirees will be coming from. Focus will be needed in the Development and Production departments as over 43,000 positions will be be vacant. Another look will be needed to see of those who are juniors and see who are ready for promotions. 
