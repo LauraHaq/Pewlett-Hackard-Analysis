@@ -10,22 +10,22 @@ Data types, formats and connecting keys were considered in creating new data fil
 
 ## Resources
 - Data Sources
-  - ![employees.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/employees.csv)
-  - ![titles.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/employees.csv)
-  - ![retiringment_titles.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv)
-  - ![dept_emp.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/dept_emp.csv)
-  - ![unique_titles.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv)
-  - ![retiring_titles](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv)
+  - [employees.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/employees.csv)
+  - [titles.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/employees.csv)
+  - [retiringment_titles.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv)
+  - [dept_emp.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/dept_emp.csv)
+  - [unique_titles.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv)
+  - [retiring_titles](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv)
   
 - Tools
-  - ![QuickDBD app](https://app.quickdatabasediagrams.com/)
+  - [QuickDBD app](https://app.quickdatabasediagrams.com/)
   - pgAdmin4
   - PostgreSQL 
 
 ## Results
 - First is to consider the number of employees versus the number of employees currenrtly employed. 
-    - ![dept_emp.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/dept_emp.csv) has a count of 331,603 current employees listed. 
-    - ![unique_titles.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv) has a count of 90,368 ready for retirment
+    - [dept_emp.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/dept_emp.csv) has a count of 331,603 current employees listed. 
+    - [unique_titles.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv) has a count of 90,368 ready for retirment
  
 - Second is to find what 90,368 positions will become open:
 
@@ -38,7 +38,7 @@ Data types, formats and connecting keys were considered in creating new data fil
 
 - Finally, is to find Senoir employees that can be considered to become mentors filtering data with birthdays on file of January 1, 1965 to December 31, 1965.
 
-    - ![mentor_eligibilty.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv) produced a list of 1,549 employees to become mentors.
+    - [mentor_eligibilty.csv](https://github.com/LauraHaq/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv) produced a list of 1,549 employees to become mentors.
 
 ## Summary
 This analysis was able to show Pelwett Hackard how to prepare for a large number of employees retiring in the near future. In fact 27.3% of their workforce is up for retirement and nearly two-thirds are in senior positons. A senoir mentor program very much is needed to prepare their juniors to take their positions. A list of those mentors are provided and gives a count of 1,549 possible mentors. With almost 60,000 in senior positions the 14,222 Engineers and 12,243 regular staff will be able to take up less than half of the positions. Outside hiring will need to be considered. Also, outside education will also need to be considered as 1,549 is not enough to make a large impact on a large workforce. Addition information that I have already added is to look at which departments those soon to be retirees will be coming from. Focus will be needed in the Development and Production departments as over 43,000 positions will be be vacant. Another look will be needed to see of those who are juniors and see who are ready for promotions. 
